@@ -12,6 +12,8 @@ import {
 } from '@chakra-ui/react';
 import { FaUpload, FaTrophy } from 'react-icons/fa';
 import logo from '../assets/image/FunFund_logo.jpeg'
+import FunImage from '../assets/image/FunFund image.jpeg'
+
 
 
 const MemeMarketplace: React.FC = () => {
@@ -53,7 +55,7 @@ const ActionButton: React.FC<{ label: string; icon: React.ElementType }> = ({ la
     leftIcon={<Icon as={icon} />}
     colorScheme="teal"
     size="lg"
-    variant="solid"
+    variant="solid
     _hover={{
       bg: 'teal.500',
       transform: 'scale(1.05)',
@@ -68,10 +70,10 @@ const ActionButton: React.FC<{ label: string; icon: React.ElementType }> = ({ la
 // Meme Grid Component
 const MemeGrid: React.FC = () => {
   const memes = [
-    { id: 1, title: 'Hilarious Meme 1', imageUrl: logo },
-    { id: 2, title: 'Hilarious Meme 2', imageUrl: 'https://via.placeholder.com/150' },
-    { id: 3, title: 'Hilarious Meme 3', imageUrl: 'https://via.placeholder.com/150' },
-    { id: 4, title: 'Hilarious Meme 4', imageUrl: 'https://via.placeholder.com/150' },
+    { id: 1, title: 'Hilarious Meme ', imageUrl: logo },
+    { id: 2, title: ' Meme Meme', imageUrl: FunImage },
+    { id: 3, title: 'Comic Meme ', imageUrl: logo },
+    { id: 4, title: 'Funny Meme ', imageUrl: FunImage },
   ];
 
   return (
